@@ -216,7 +216,7 @@ namespace DIO.Series
             Console.Write("Digite o ID da SERIE a ser EXCLUÍDA: ");
             int indiceSerie = int.Parse(Console.ReadLine());
 
-            movie.Delete(indiceSerie);
+            serie.Delete(indiceSerie);
         }
 
     }
